@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    
+</head>
+<body style="background-image: url(/image/pexels-pixabay-259915.jpg); display: flex;flex-direction: column;flex-wrap: wrap;">
+    <header>
+        <ul>
+    <li class="list a"><a herf="#">HOME</a></li>
+    <li class="list a"><a href="#" >ADDMISSION</a></li>
+    <li class="list a"><a href="#">EXAMNATION</a></li>
+    <li class="list a"><a href="#">ABOUT</a></li>
+    <li class="list a"><a href="#">CONTACT</a></li>
+        
+        <style>li{display:inline-block;margin:4%; width:auto; padding:1%;font-size: large; color: black;}
+        ul{border: solid red;}li a{text-decoration: none;font-style: italic;color: aliceblue; }li a:hover{background-color: brown;}
+          .heading{text-align: center;font-size: xx-large;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}</style>      
+    </header>
+    <h1 class="heading"><em>ADDMISSION FORM</em></h1>
+    <form style="border: solid;border-radius: 10%;background-image: url(/image/red_background_with_a_pattern_201971.zip);padding:1cm;text-align: center;">
+         NAME: <input type="text" required>
+         AGE: <input type="number" min="0" max="100" id="AGE"requried ><br>
+         EDUCATION: <select required>
+            <option value="#" name="select" >select</option>
+            <option value="ba" name="ba" >BA ARTS</option>
+            <option value="BSC" name="BSC" >Bsc agriculture</option>
+            <option value="btech" name="btech" >BTECH</option>
+            <option value="bca" name="bca" >BCA</option>
+            <option value="BCOM" name="BCOM" >BCOM</option>
+            <option value="OTHER" name="OTHER" >OTHER</option>
+         </select><br>
+         MOBILE NO : <input type="tel" placeholder="10 digits">
+         <div style="border: solid;" class="gender">
+            GENDER: <input type="radio" name="GENDER" value="male" >MALE <input type="radio" name="GENDER" value="FEMALE">FEMALE<br>
+             <button class="btn"> Apply</button>
+         </div>
+         <p id="para"><script> let date= new Date();
+         document.getElementById("para").innerHTML=date;
+         
+    </script>
+         </p>
+    </form>
+
+    
+</body>
+</html>
